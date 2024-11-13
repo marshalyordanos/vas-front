@@ -1,6 +1,6 @@
 import SpeakingImage from "../../assets/Speaking.png";
 import ListeningImage from "../../assets/Listening.png";
-import WritingImage from "../../assets/Writing.png";
+import WritingImage from "../../assets/writing.png";
 import ReadingImage from "../../assets/Reading.png";
 import SkillCard from "./SkillCard";
 
