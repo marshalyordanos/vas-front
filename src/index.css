@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #D4D9CC;
+
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.otpinput {
+  border: 1px solid #a0a0a0 !important;
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 5px !important;
+  margin-right: 10px !important;
+  margin-left: 10px !important;
+  outline: 1.5px solid transparent; /* Set a transparent outline initially */
+  transition: outline 0.3s ease; /* Add a transition effect to the outline property */
+  font-weight: bold;
+  font-size: 21px;
+  text-align: center !important;
+  width: 2.3em !important; /* Increase the width to provide more space for the number */
+  /* text-align: center; */
+}
+.otpinput:focus {
+  /* Add your styles for the focused state here */
+  outline: 1.5px solid #3e95ff8d; /* Example: add a blue outline when focused */
+  border: 1px solid #3e95ff !important;
+  /* Add more styles as needed */
+}
+.otpinputerror {
+  border: 1px solid #e93f33 !important;
+  width: 55px !important;
+  height: 69px !important;
+  border-radius: 5px !important;
+  margin-right: 10px !important;
+  margin-left: 10px !important;
+  /* outline: 0.5px solid #e93f33; Set a transparent outline initially */
+  transition: outline 0.3s ease; /* Add a transition effect to the outline property */
+  font-weight: bold;
+  font-size: 21px;
+  text-align: center !important;
+  width: 2.3em !important; /* Increase the width to provide more space for the number */
+  /* text-align: center; */
+}
+/* Media query for screens less than 420px */
+@media (max-width: 420px) {
+  .otpinput,
+  .otpinputerror {
+    width: 40px !important;
+    height: 50px !important;
+    font-size: 16px; /* Adjust font size for smaller screens */
+  }
+}

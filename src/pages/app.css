@@ -1,0 +1,75 @@
+.vertical-stepper {
+  width: 100%;
+  padding: 20px;
+}
+
+.accordion {
+  margin-bottom: 20px;
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #e3e3e3;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.accordion-body {
+  padding: 10px;
+  border: 1px solid #e3e3e3;
+  border-top: none;
+  border-radius: 0 0 10px 10px;
+}
+
+.accordion-icon {
+  font-size: 1.5em;
+}
+
+.zigzag-steps {
+  position: relative;
+  padding: 20px;
+}
+
+.zigzag-path {
+  display: block;
+  margin: 0 auto;
+}
+
+.step-content {
+  text-align: center;
+  font-size: 12px;
+}
+
+.step-content h3 {
+  margin: 5px 0;
+  font-size: 1em;
+  color: #333;
+}
+
+.action-btn {
+  padding: 5px 10px;
+  background-color: #00c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.8em;
+  margin-top: 5px;
+}
+
+.action-btn:hover {
+  background-color: #008;
+}
+
+circle {
+  transition: all 0.3s ease;
+}
+
+circle:hover {
+  transform: scale(1.1);
+  stroke-width: 4;
+}
